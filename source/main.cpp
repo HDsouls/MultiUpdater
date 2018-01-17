@@ -31,7 +31,7 @@ int main(int argc, char ** argv)
 		u32 kDown = hidKeysDown();
 		if (kDown & KEY_START)
 			break;
-		else if (kDown & KEY_DOWN) {
+/*		else if (kDown & KEY_DOWN) {
 			selectedEntry++;
 			if (selectedEntry >= config.entries.size())
 				selectedEntry = config.entries.size()-1;
@@ -57,9 +57,10 @@ int main(int argc, char ** argv)
 				else
 					config.entries[i].state &= ~STATE_MARKED; //unmark all
 			}
-		}
+		} */
 		else if (kDown & KEY_A) {
 			for (unsigned int i = 0; i < config.entries.size(); i++) {
+				config.entries[i].state ^= STATE_MARKED;
 				if ((config.entries[i].state & STATE_MARKED) || (i == selectedEntry)) {
 					consoleSelect(&topScreen);
 					drawMenu(config, i);
