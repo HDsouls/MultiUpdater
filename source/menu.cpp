@@ -2,7 +2,7 @@
 
 static const unsigned int FRAMES_FOR_TEXT_SCROLL = 40;
 static const unsigned int MENU_WIDTH = 40;
-static const unsigned int MAX_ENTRIES_PER_SCREEN = 0;
+static const unsigned int MAX_ENTRIES_PER_SCREEN = 1;
 
 static const unsigned int MENU_Y_OFFSET = 5;
 static const unsigned int MENU_X_OFFSET = 5;
