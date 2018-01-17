@@ -9,46 +9,46 @@
 			"name": "FBI",
 			"url": "https://github.com/Steveice10/FBI",
 			"inrelease": "FBI\\.cia",
-			"path": "/cias/FBI.cia",
+			"path": "/cias/FBI.cia"
 		},
 		{
 			"name": "HBmenu",
 			"url": "https://github.com/fincs/new-hbmenu",
 			"inrelease": "boot\\.3dsx",
-			"path": "/boot.3dsx",
+			"path": "/boot.3dsx"
 		},
 		{
 			"name": "Anemone3DS",
 			"url": "https://github.com/astronautlevel2/Anemone3DS",
 			"inrelease": "Anemone3DS\\.cia",
-			"path": "/cias/Anemone3DS.cia",
+			"path": "/cias/Anemone3DS.cia"
 		},
 		{
 			"name": "CTRNAND Luma3DS (latest release)",
 			"url": "https://github.com/AuroraWright/Luma3DS",
 			"inrelease": "Luma3DS.*\\.7z",
 			"inarchive": "boot\\.firm",
-			"path": "ctrnand:/boot.firm",
+			"path": "ctrnand:/boot.firm"
 		},
 		{
 			"name": "GodMode9 (latest release)",
 			"url": "https://github.com/d0k3/GodMode9",
 			"inrelease": "GodMode9.*\\.zip",
 			"inarchive": "GodMode9\\.firm",
-			"path": "/luma/payloads/GodMode9.firm",
+			"path": "/luma/payloads/GodMode9.firm"
 		},
 		{
 			"name": "Luma3DS (latest commit)",
 			"url": "https://astronautlevel2.github.io/Luma3DS/latest.zip",
 			"inarchive": "out/boot\\.firm",
-			"path": "/boot.firm",
+			"path": "/boot.firm"
 		},
 		{
 			"name": "Luma3DS (latest release)",
 			"url": "https://github.com/AuroraWright/Luma3DS",
 			"inrelease": "Luma3DS.*\\.7z",
 			"inarchive": "boot\\.firm",
-			"path": "/boot.firm",
+			"path": "/boot.firm"
 		}
 	]
 }
