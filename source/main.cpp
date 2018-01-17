@@ -57,7 +57,8 @@ int main(int argc, char ** argv)
 				else
 					config.entries[i].state &= ~STATE_MARKED; //unmark all
 			}
-		} */
+		} 
+*/
 		else if (kDown & KEY_A) {
 			for (unsigned int i = 0; i < config.entries.size(); i++) {
 				config.entries[i].state ^= STATE_MARKED;
