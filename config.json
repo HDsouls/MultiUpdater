@@ -6,16 +6,11 @@
 	},
 	"entries": [
 		{
-			"name": "FBI",
-			"url": "https://github.com/Steveice10/FBI",
-			"inrelease": "FBI\\.cia",
-			"path": "/cias/FBI.cia"
-		},
-		{
-			"name": "Anemone3DS",
-			"url": "https://github.com/astronautlevel2/Anemone3DS",
-			"inrelease": "Anemone3DS\\.cia",
-			"path": "/cias/Anemone3DS.cia"
+			"name": "Luma3DS (latest release)",
+			"url": "https://github.com/AuroraWright/Luma3DS",
+			"inrelease": "Luma3DS.*\\.7z",
+			"inarchive": "boot\\.firm",
+			"path": "/boot.firm"
 		},
 		{
 			"name": "CTRNAND Luma3DS (latest release)",
@@ -25,32 +20,10 @@
 			"path": "ctrnand:/boot.firm"
 		},
 		{
-			"name": "GodMode9 (latest release)",
-			"url": "https://github.com/d0k3/GodMode9",
-			"inrelease": "GodMode9.*\\.zip",
-			"inarchive": "GodMode9\\.firm",
-			"path": "/luma/payloads/GodMode9.firm"
-		},
-		{
-			"name": "Luma3DS (latest release)",
-			"url": "https://github.com/AuroraWright/Luma3DS",
-			"inrelease": "Luma3DS.*\\.7z",
-			"inarchive": "boot\\.firm",
-			"path": "/boot.firm"
-		},
-		{
-			"name": "hblauncher_loader",
-			"url": "https://github.com/yellows8/hblauncher_loader",
-			"inrelease": "hblauncher_loader.*\\.zip",
-			"inarchive": "hblauncher_loader\\.cia",
-			"path": "/cias/hblauncher_loader.cia"
-		},
-		{
-			"name": "lumaupdate",
-			"url": "https://github.com/KunoichiZ/lumaupdate",
-			"inrelease": "lumaupdater.*\\.zip",
-			"inarchive": "lumaupdater\\.cia",
-			"path": "/cias/lumaupdater.cia"
+			"name": "FBI",
+			"url": "https://github.com/Steveice10/FBI",
+			"inrelease": "FBI\\.cia",
+			"path": "/cias/FBI.cia"
 		},
 		{
 			"name": "freeshop",
@@ -58,6 +31,14 @@
 			"inarchive": "freeshop\\.cia",
 			"path": "/cias/freeshop.cia"
 		},
+		{
+			"name": "GodMode9 (latest release)",
+			"url": "https://github.com/d0k3/GodMode9",
+			"inrelease": "GodMode9.*\\.zip",
+			"inarchive": "GodMode9\\.firm",
+			"path": "/luma/payloads/GodMode9.firm"
+		},
+		
 		{
 			"name": "cleanup_sd_card",
 			"url": "http://3ds.guide/gm9_scripts/cleanup_sd_card.gm9",
@@ -104,6 +85,31 @@
 			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
 			"inarchive": "/3ds/data/freeShop/tmp/latest.txt",
 			"path": "/3ds/data/freeShop/tmp/latest.txt"
+		},
+		{
+			"name": "lumaupdate",
+			"url": "https://github.com/KunoichiZ/lumaupdate",
+			"inrelease": "lumaupdater.*\\.zip",
+			"inarchive": "lumaupdater\\.cia",
+			"path": "/cias/lumaupdater.cia"
+		},
+		{
+			"name": "ftpd",
+			"url": "https://mtheall.com/~mtheall/ftpd.cia",
+			"path": "/cias/ftpd.cia"
+		},
+		{
+			"name": "hblauncher_loader",
+			"url": "https://github.com/yellows8/hblauncher_loader",
+			"inrelease": "hblauncher_loader.*\\.zip",
+			"inarchive": "hblauncher_loader\\.cia",
+			"path": "/cias/hblauncher_loader.cia"
+		},
+		{
+			"name": "Anemone3DS",
+			"url": "https://github.com/astronautlevel2/Anemone3DS",
+			"inrelease": "Anemone3DS\\.cia",
+			"path": "/cias/Anemone3DS.cia"
 		},
 		{
 			"name": "HBmenu",
