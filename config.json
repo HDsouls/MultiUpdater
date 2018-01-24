@@ -32,12 +32,6 @@
 			"path": "/luma/payloads/GodMode9.firm"
 		},
 		{
-			"name": "Luma3DS (latest commit)",
-			"url": "https://astronautlevel2.github.io/Luma3DS/latest.zip",
-			"inarchive": "out/boot\\.firm",
-			"path": "/boot.firm"
-		},
-		{
 			"name": "Luma3DS (latest release)",
 			"url": "https://github.com/AuroraWright/Luma3DS",
 			"inrelease": "Luma3DS.*\\.7z",
