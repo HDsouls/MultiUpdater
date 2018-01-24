@@ -48,7 +48,7 @@
 			"name": "Buckup SysNAND",
 			"url": "https://github.com/d0k3/GodMode9",
 			"inrelease": "GodMode9.*\\.zip",
-			"inarchive": "/gm9/scripts/Backup SysNAND\\.gm9",
+			"inarchive": "gm9/scripts/Backup SysNAND\\.gm9",
 			"path": "/gm9/scripts/Backup SysNAND.gm9"
 		},
 		{
@@ -59,31 +59,31 @@
 		{
 			"name": "freeshop_data",
 			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
-			"inarchive": "/3ds/dspfirm\\.cdc",
+			"inarchive": "3ds/dspfirm\\.cdc",
 			"path": "/3ds/dspfirm.cdc"
 		},
 		{
 			"name": "freeshop_config",
 			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
-			"inarchive": "/3ds/data/freeShop/config.json",
+			"inarchive": "3ds/data/freeShop/config.json",
 			"path": "/3ds/data/freeShop/config.json"
 		},
 		{
 			"name": "freeshop_cache",
 			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
-			"inarchive": "/3ds/data/freeShop/tmp/cache.tar.gz",
+			"inarchive": "3ds/data/freeShop/tmp/cache.tar.gz",
 			"path": "/3ds/data/freeShop/tmp/cache.tar.gz"
 		},
 		{
 			"name": "freeshop_json",
 			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
-			"inarchive": "/3ds/data/freeShop/tmp/latest.json",
+			"inarchive": "3ds/data/freeShop/tmp/latest.json",
 			"path": "/3ds/data/freeShop/tmp/latest.json"
 		},
 		{
 			"name": "freeshop_txt",
 			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
-			"inarchive": "/3ds/data/freeShop/tmp/latest.txt",
+			"inarchive": "3ds/data/freeShop/tmp/latest.txt",
 			"path": "/3ds/data/freeShop/tmp/latest.txt"
 		},
 		{
