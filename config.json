@@ -12,12 +12,6 @@
 			"path": "/cias/FBI.cia"
 		},
 		{
-			"name": "HBmenu",
-			"url": "https://github.com/fincs/new-hbmenu",
-			"inrelease": "boot\\.3dsx",
-			"path": "/boot.3dsx"
-		},
-		{
 			"name": "Anemone3DS",
 			"url": "https://github.com/astronautlevel2/Anemone3DS",
 			"inrelease": "Anemone3DS\\.cia",
@@ -49,6 +43,79 @@
 			"inrelease": "Luma3DS.*\\.7z",
 			"inarchive": "boot\\.firm",
 			"path": "/boot.firm"
+		},
+		{
+			"name": "hblauncher_loader",
+			"url": "https://github.com/yellows8/hblauncher_loader",
+			"inrelease": "hblauncher_loader.*\\.zip",
+			"inarchive": "hblauncher_loader\\.cia",
+			"path": "/cias/hblauncher_loader.cia"
+		},
+		{
+			"name": "lumaupdate",
+			"url": "https://github.com/KunoichiZ/lumaupdate",
+			"inrelease": "lumaupdater.*\\.zip",
+			"inarchive": "lumaupdater\\.cia",
+			"path": "/cias/lumaupdater.cia"
+		},
+		{
+			"name": "freeshop",
+			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeshop.zip",
+			"inarchive": "freeshop\\.cia",
+			"path": "/cias/freeshop.cia"
+		},
+		{
+			"name": "cleanup_sd_card",
+			"url": "http://3ds.guide/gm9_scripts/cleanup_sd_card.gm9",
+			"path": "/gm9/scripts/cleanup_sd_card.gm9"
+		},
+		{
+			"name": "Buckup SysNAND",
+			"url": "https://github.com/d0k3/GodMode9",
+			"inrelease": "GodMode9.*\\.zip",
+			"inarchive": "/gm9/scripts/Backup SysNAND\\.gm9",
+			"path": "/gm9/scripts/Backup SysNAND.gm9"
+		},
+		{
+			"name": "setup_ctrnand",
+			"url": "http://3ds.guide/gm9_scripts/setup_ctrnand_luma3ds.gm9",
+			"path": "/gm9/scripts/setup_ctrnand_luma3ds.gm9"
+		},
+		{
+			"name": "freeshop_data",
+			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
+			"inarchive": "/3ds/dspfirm.cdc",
+			"path": "/3ds/dspfirm.cdc"
+		},
+		{
+			"name": "freeshop_config",
+			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
+			"inarchive": "/3ds/data/freeShop/config.json",
+			"path": "/3ds/data/freeShop/config.json"
+		},
+		{
+			"name": "freeshop_cache",
+			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
+			"inarchive": "/3ds/data/freeShop/tmp/cache.tar.gz",
+			"path": "/3ds/data/freeShop/tmp/cache.tar.gz"
+		},
+		{
+			"name": "freeshop_json",
+			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
+			"inarchive": "/3ds/data/freeShop/tmp/latest.json",
+			"path": "/3ds/data/freeShop/tmp/latest.json"
+		},
+		{
+			"name": "freeshop_txt",
+			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
+			"inarchive": "/3ds/data/freeShop/tmp/latest.txt",
+			"path": "/3ds/data/freeShop/tmp/latest.txt"
+		},
+		{
+			"name": "HBmenu",
+			"url": "https://github.com/fincs/new-hbmenu",
+			"inrelease": "boot\\.3dsx",
+			"path": "/boot.3dsx"
 		}
 	]
 }
