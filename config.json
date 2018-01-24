@@ -59,7 +59,7 @@
 		{
 			"name": "freeshop_data",
 			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
-			"inarchive": "/3ds/dspfirm.cdc",
+			"inarchive": "/3ds/dspfirm\\.cdc",
 			"path": "/3ds/dspfirm.cdc"
 		},
 		{
