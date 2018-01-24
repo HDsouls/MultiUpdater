@@ -31,6 +31,30 @@
 			"inarchive": "freeshop\\.cia",
 			"path": "/cias/freeshop.cia"
 		},
+  {
+			"name": "luma_config",
+			"url": "https://github.com/rashevskyv/3ds/raw/master/files/luma.zip",
+			"inarchive": "luma/config\\.bin",
+			"path": "/luma/config.bin"
+		},
+  {
+			"name": "customversion",
+			"url": "https://github.com/rashevskyv/3ds/raw/master/files/luma.zip",
+			"inarchive": "luma/customversion_sys\\.txt",
+			"path": "/luma/customversion_sys.txt"
+		},
+  {
+			"name": "luma_splash",
+			"url": "https://github.com/rashevskyv/3ds/raw/master/files/luma.zip",
+			"inarchive": "luma/splash.\\.bin",
+			"path": "/luma/splash.bin"
+		},
+  {
+			"name": "luma_splashbottom",
+			"url": "https://github.com/rashevskyv/3ds/raw/master/files/luma.zip",
+			"inarchive": "luma/splashbottom\\.bin",
+			"path": "/luma/splashbottom.bin"
+		},
 		{
 			"name": "GodMode9 (latest release)",
 			"url": "https://github.com/d0k3/GodMode9",
@@ -119,3 +143,25 @@
 		}
 	]
 }
+",
+			"url": "https://github.com/rashevskyv/3ds/raw/master/files/freeShop_data.zip",
+			"inarchive": "3ds/data/freeShop/tmp/latest.txt",
+			"path": "/3ds/data/freeShop/tmp/latest.txt"
+		},
+		{
+			"name": "lumaupdate",
+			"url": "https://github.com/KunoichiZ/lumaupdate",
+			"inrelease": "lumaupdater.*\\.zip",
+			"inarchive": "lumaupdater\\.cia",
+			"path": "/cias/lumaupdater.cia"
+		},
+		{
+			"name": "ftpd",
+			"url": "https://mtheall.com/~mtheall/ftpd.cia",
+			"path": "/cias/ftpd.cia"
+		},
+		{
+			"name": "hblauncher_loader",
+			"url": "https://github.com/yellows8/hblauncher_loader",
+			"inrelease": "hblauncher_loader.*\\.zip",
+			"inarchive": "hblaunche
